@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+<div id="top">
+
+    <h1>facebook</h1>
+    <form>
+        <label for="email">Email:</label>
+        <label for="password">passwword:</label><br>
+        <input type="text" id="email" name="email">
+        <input type="password" id="password" name="password">
+      </form>
+      
+</div>
+
+<h2>Facebook helps you to connect and share with</h2>
+<h2>people in your life</h2>
+
+<img src="Capture.PNG" style="height: 300px ;width:500px;">
+
+<div id="right">
+<h2>Sign Up</h2>
+
+<p>Its free and always will be</p>
+<p>First Name:<input type="text" onclick="myfun()"></p>
+<p>Last Name:<input type="text" onclick="myfun()"></p>
+<p>Your Email:<input type="text"></p>
+<p>Password:<input type="password" onclick="confirm()"></p>
+<p>I am:<select name="Gender"><option>Male</option><option>Female</option></select></p>
+<button>Sign Up</button>
+</div>
+
+
+
+<script type="text/javascript">
+
+function myfun()
+{
+prompt("You entered something");
+}
+
+
+function confirm()
+{
+confirm("You sure?");
+}
+</script>
+<style>
+    form{
+        position:absolute;
+        top:20px;
+        right:20px;
+    }
+
+    #top{
+        background-color: rgb(46, 46, 156);
+        color:white;
+        padding:5px;
+    }
+
+    h2{
+        color:rgb(24, 98, 121);
+    }
+
+    #right{
+        position: absolute;
+        top:100px;
+        right:100px;
+    }
+
+    body{
+        background-color: rgb(166, 212, 201);
+    }
+
+
+
+</style>
+
+</body>
+</html>
